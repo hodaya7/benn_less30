@@ -47,8 +47,9 @@ $(document).ready(function () {
     $(".input").keypress(function (key) {
         if (key.which == 13 && $(".input").val() != "") {//אם לחץ אנטר ויש ערך
             var newTask = $("<div class='task'></div>");
-            newTask.text ($(".input").val());
+            newTask.text($(".input").val());
             $(".task-container").append(newTask);
+            $(".input").val("");
         }
     })
 

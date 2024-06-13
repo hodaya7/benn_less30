@@ -1,0 +1,51 @@
+{
+    "userId": 1,
+    "firstName": "or",
+    "lastName": "lev",
+    "email": "or@gmail.com"
+}
+  {
+    "orderId": 1,
+    "userId": 1,
+    "itemName": "ball",
+    "itemCost": 9.0,
+}
+  
+  {
+    "userId": 1,
+    "firstName": "or",
+    "lastName": "lev",
+    "email": "or@gmail.com",
+    "orders": [
+        {
+            "orderId": 1,
+            "userId": 1,
+            "itemName": "ball",
+            "itemCost": 9.0,
+        },
+        {
+            "orderId": 2,
+            "userId": 1,
+            "itemName": "doll",
+            "itemCost": 9.0,
+        },
+        {
+            "orderId": 3,
+            "userId": 1,
+            "itemName": "egg",
+            "itemCost": 9.0,
+        }
+    ]
+}
+  
+  
+  {
+    "userId": 1,
+    "firstName": "or",
+    "lastName": "lev",
+    "email": "or@gmail.com",
+    "userVip": {
+        "isVip": true,
+        "vipDate": ""
+    }
+}
